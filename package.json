@@ -1,0 +1,33 @@
+{
+  "name": "jumpy-rex",
+  "version": "1.0.0",
+  "description": "As a dinosaur you msut jump over rocks as many as you can! ",
+  "main": "utils.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonBuosi/jumpy-rex.git"
+  },
+  "keywords": [
+    "Game",
+    "Rex",
+    "Jump",
+    "Jumpy",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "author": "Marlon Buosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarlonBuosi/jumpy-rex/issues"
+  },
+  "homepage": "https://github.com/MarlonBuosi/jumpy-rex#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "live-server": "^1.2.1"
+  }
+}
