@@ -1,0 +1,65 @@
+.game {
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+#dino {
+  width: 50px;
+  height: 50px;
+  background-image: url(img/dinosaur.jpg);
+  background-size: 60px 60px;
+
+  position: relative;
+  top: 150px;
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+
+  30% {
+    top: 130px;
+  }
+
+  50% {
+    top: 80px;
+  }
+
+  80% {
+    top: 130px;
+  }
+
+  100% {
+    top: 150px;
+  }
+}
+
+#rocks {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 130px;
+  left: 580px;
+
+  background-color: black;
+  background-size: 20px 20px;
+
+  animation: block 1.5s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 580px;
+  }
+
+  100% {
+    left: -10px;
+  }
+}
